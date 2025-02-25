@@ -67,11 +67,6 @@ const progressItems = [
   { name: "Api Integration", value: 90, progress: 90 },
 ];
 const downloadResume = () => {
-  const link = document.createElement("a");
-  link.href = "/saeedCv.pdf"; // Ensure this file is in the 'public' folder
-  link.download = "Saeed_Wasim_Resume.pdf";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
+  window.open("/saeedCv.pdf", "_blank");
 };
 </script>

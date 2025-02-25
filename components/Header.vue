@@ -114,13 +114,7 @@ const scrollTo = (id) => {
   }
 };
 const downloadResume = () => {
-  const link = document.createElement("a");
-  link.href = "/saeedCv.pdf"; // Ensure this file is in the 'public' folder
-  link.download = "Saeed_Wasim_Resume.pdf";
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-  isMenuOpen.value = false; // Close the menu after scrolling
+  window.open("/saeedCv.pdf", "_blank");
 };
 </script>
 
