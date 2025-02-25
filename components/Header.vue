@@ -33,20 +33,6 @@
           Portfolio
         </p>
       </div>
-
-      <!-- Separator Line for Desktop -->
-      <div class="w-[1px] h-[28px] bg-white mx-10 hidden lg:block"></div>
-
-      <!-- Resume and Contact Button (Desktop Only) -->
-      <div class="gap-10 hidden lg:flex items-center">
-        <p
-          class="hover:text-[#e68017] text-xl font-semibold font-sans cursor-pointer"
-          @click="downloadResume"
-        >
-          Download Resume
-        </p>
-      </div>
-
       <!-- Mobile Menu Icon -->
       <img
         src="@/assets/svg/menu.svg"
@@ -80,13 +66,6 @@
         >
           Portfolio
         </p>
-        <span class="w-52 h-[1px] bg-white"></span>
-        <p
-          class="hover:text-[#e68017] text-xl font-semibold font-sans cursor-pointer"
-          @click="downloadResume"
-        >
-          Download Resume
-        </p>
       </div>
     </transition>
   </div>
@@ -112,9 +91,6 @@ const scrollTo = (id) => {
   if (isMenuOpen.value) {
     isMenuOpen.value = false; // Close the menu after scrolling
   }
-};
-const downloadResume = () => {
-  window.open("/saeedCv.pdf", "_blank");
 };
 </script>
 

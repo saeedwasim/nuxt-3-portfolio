@@ -46,15 +46,6 @@
         development, I’m all about delivering top-notch results that exceed
         expectations.
       </p>
-      <button
-        @click="downloadResume"
-        class="animate-fadeInUp delay-1000 mt-10 w-56 h-14 relative rounded-lg group overflow-hidden font-medium border-[3px] border-[#e68017] hover:border-white text-xl text-white inline-block"
-      >
-        <span
-          class="absolute bottom-0 left-0 flex w-full h-0 mt-0 transition-all duration-200 ease-out transform translate-y-0 bg-white group-hover:h-full"
-        ></span>
-        <span class="relative group-hover:text-black">Download Resume</span>
-      </button>
     </div>
   </div>
 </template>
@@ -66,7 +57,4 @@ const progressItems = [
   { name: "Nuxt Js", value: 90, progress: 90 },
   { name: "Api Integration", value: 90, progress: 90 },
 ];
-const downloadResume = () => {
-  window.open("/saeedCv.pdf", "_blank");
-};
 </script>
