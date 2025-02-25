@@ -15,9 +15,6 @@
     <div id="portfolio">
       <Portfolio />
     </div>
-    <div id="testimonials">
-      <Testominals />
-    </div>
     <div id="footer">
       <Footer />
     </div>

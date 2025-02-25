@@ -18,18 +18,6 @@
       >
         TURNING IDEAS INTO IMPACT.
       </p>
-      <div class="mt-16 flex justify-center md:justify-start">
-        <button
-          class="w-44 h-12 relative rounded-lg group overflow-hidden font-medium bg-[#D87004] text-black hover:border-white text-xl inline-block"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <span
-            class="absolute bottom-0 left-0 flex w-full h-0 mt-0 transition-all duration-200 ease-out transform translate-y-0 bg-white group-hover:h-full"
-          ></span>
-          <span class="relative">Get Started</span>
-        </button>
-      </div>
     </div>
 
     <!-- Right Section -->
@@ -56,10 +44,7 @@
       <div class="flex justify-center md:justify-end mt-5 cursor-pointer">
         <div class="flex">
           <div class="mr-3">
-            <a
-              href="https://www.linkedin.com/in/saeed-wasim-246b32312/"
-              target="_blank"
-            >
+            <a href="https://www.linkedin.com/in/saeed-wasim/" target="_blank">
               <linkedIn class="cursor-pointer" />
             </a>
           </div>

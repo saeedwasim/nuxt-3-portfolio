@@ -65,16 +65,16 @@ const data = [
       "Building fast, responsive, and scalable websites with modern web technologies.",
   },
   {
-    title: "Digital Marketing",
+    title: "Single Page App",
     icon: dollar,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt sagittis eros",
+      " Developing smooth, high-performance SPAs that deliver a seamless user experience.",
   },
   {
-    title: "Brand Identity",
+    title: "API Integration",
     icon: brand,
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt sagittis eros",
+      "Connecting Vue apps with backend services via REST APIs, optimizing for speed",
   },
 ];
 </script>

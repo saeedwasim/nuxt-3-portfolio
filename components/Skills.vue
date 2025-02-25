@@ -60,11 +60,11 @@
 </template>
 <script setup>
 const progressItems = [
-  { name: "Html & Css", value: 90, progress: 90 },
-  { name: "Tailwind Css", value: 90, progress: 90 },
-  { name: "Vue Js", value: 80, progress: 80 },
-  { name: "Nuxt Js", value: 85, progress: 85 },
-  { name: "Api Integration", value: 95, progress: 95 },
+  { name: "Html & Css", value: 98, progress: 98 },
+  { name: "Tailwind Css", value: 95, progress: 95 },
+  { name: "Vue Js", value: 90, progress: 90 },
+  { name: "Nuxt Js", value: 90, progress: 90 },
+  { name: "Api Integration", value: 90, progress: 90 },
 ];
 const downloadResume = () => {
   const link = document.createElement("a");
