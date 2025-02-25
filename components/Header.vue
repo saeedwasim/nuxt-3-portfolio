@@ -46,7 +46,7 @@
     <transition name="menu-slide">
       <div
         v-if="isMenuOpen"
-        class="absolute rounded-b-3xl top-20 left-0 w-full bg-[#272626] flex flex-col space-y-5 py-3 items-center h-[250px] md:flex lg:hidden"
+        class="absolute rounded-b-3xl top-20 left-0 w-full bg-[#252525] flex flex-col space-y-5 py-3 items-center h-[180px] md:flex lg:hidden"
       >
         <p
           @click="scrollTo('about')"
